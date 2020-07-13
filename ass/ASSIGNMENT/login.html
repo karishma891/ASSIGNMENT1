@@ -1,0 +1,60 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title >Login form</title>
+</head>
+
+<body>
+    <style>
+        div {
+        background-color: lightgrey;
+        width: 500px;
+        border: 7px solid black;
+        padding: 80px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+    
+    <h2><strong><center>LOGIN FORM</strong></h2></center>
+
+    <div>
+    <h2><center>Please enter your details here :</h2></center>
+    
+    
+    <form>
+        <!--For name-->
+        <center><label for="username">Enter your Name :</label><br>
+            <input type="text" id ="username" name="username" placeholder= "your name..." required>
+        </center> <br><br>
+
+        <!--For Password-->
+       <center><label for="Password">Enter your password:</label><br>
+        <input type="Password" id ="Password" name="username" placeholder="your password..." required>
+       </center>  <br><br>
+
+        <!--For Security Question-->
+        <center> <label for="question">Security Question?</label><br>
+            <select id="security">
+                <option value="question 1">Favourite Actor</option>
+                <option value="question 2">Favourite Sports</option>
+                <option value="question 3">Your pet Name</option>  
+            </select>
+        </center> <br>
+            <center><label for="answer"><left>Answer</left></label> <br> 
+            <textarea required id="answer" rows="5" cols="30" placeholder="Your answer.." required></textarea><br> </center>
+   
+        <!--For Button-->
+        <center><label for="button"></label>
+                <button type="submit" id="submit" style="background-color:lightskyblue"><a href="./homepage.html">LOGIN</a>
+                <button type="reset" id="reset" style="background-color: gray;">CLEAR </button>
+         </center>        
+        </div>    
+    </form>
+
+</body>
